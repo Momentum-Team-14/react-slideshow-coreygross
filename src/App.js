@@ -1,10 +1,12 @@
 import './App.css'
 import { filmData } from './film-data'
+import { Slideshow } from './Slideshow'
 
-function App() {
+const App = () => {
   return (
-    <div className="slides-app">
+    <div className="slides-app" style={{ textAlign: 'center'}}>
       <h1>Your Slideshow</h1>
+      <Slideshow/>
     </div>
   )
 }
